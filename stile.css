@@ -1,0 +1,191 @@
+/* GENEAL CSS */
+
+body{
+  background-color:#EBEBEB;
+}
+
+.wrapper{
+  width: 1000px;
+  height: 800px;
+  background-color:rgba(175, 175, 175, 0.1);
+  border-radius: 10px;
+  margin: auto;
+
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*{
+  font-family: 'Indie Flower', cursive;
+}
+
+.clear{
+  clear:both;
+}
+
+.column {
+  border-radius: 5px;
+  margin-top: 3vh;
+  margin-left: 2vw;
+  float: left;
+}
+
+/*CSS COLUMN LEFT*/
+
+.column.left {
+  width: 30%;
+}
+
+.first-block{
+  background-color: white;
+  border-radius: 10px;
+  padding-top:2vh;
+  padding-bottom: 2vh;
+}
+
+#photo-profile{
+  border: 5px solid #ccc;
+  border-radius: 50%;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column.left .title{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    color: #DD5555;
+    font-size: 28px;
+}
+
+.column.left .subtitle{
+    text-align: center;
+    margin-top: 0vh;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+p.argument{
+  font-family:'Indie Flower', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+#heart{
+  color:red;
+}
+
+button{
+  margin-left: 8vw;
+  padding: 3%;
+  border-style: hidden;
+  border-radius: 5px;
+  background-color:rgba(221, 85, 85,0.8);
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  margin-bottom: 2vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+button:hover{
+  background-color:#DD5555;
+}
+
+/*COLUMN LEFT SECOND-BLOCK*/
+
+.second-block{
+  margin-top:3vh;
+  background-color:white;
+  border-radius: 10px;
+}
+
+.fab{
+  font-size: 36px;
+  color:#ccc;
+  padding: 10%;
+}
+
+.fab:hover{
+    color: #DD5555;
+}
+
+/*COLUMN CENTRE*/
+
+.column.centre{
+    background-color: white;
+    width:60%;
+    border-radius: 10px;
+    padding-bottom: 3.5vh;
+  }
+
+  .title-block{
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 1vw;
+  }
+
+  .fas.fa-film{
+    margin-left: 1vw;
+    position: relative;
+    top: 2px;;
+  }
+
+  .img{
+    float: left;
+    width: 20%;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    margin-left: 1vw;
+    margin-top: 1vh;
+  }
+
+  figcaption{
+    font-size: 20px;
+    margin-top: 4vh;
+    text-align: center;
+  }
+
+  /*COLUMN LEFT2  */
+
+  .column.left2{
+    width: 30%;
+    background-color: white;
+  }
+
+li{
+  font-size: 18px;
+}
+
+  /*COLUMN CENTRE2  */
+
+  .column.centre2{
+    background-color: white;
+    width: 60%;
+  }
+
+  .fas.fa-book{
+    position: relative;
+    left: 5px;
+    top: 2px;
+  }
+
+footer{
+  width: 94%;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 2vh;
+  margin-left:1.5vw;
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+}
